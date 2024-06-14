@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'inter', sans-serif;
+    background:#24292f ;
+}
+
+main{
+    display: flex;
+    margin: 90px auto;
+    height: 720px;
+    width: 1484px;
+    justify-content: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.312);
+}
+img{
+    border-radius: 10px 0px 0px 10px;
+}
+
+button{
+    width: 100%;
+    margin: 1rem 0;
+    padding: 0.8rem 1.2rem;
+    background-color: #009220;
+    border: none;
+    color: #fff;
+    box-shadow: 1px 1px 6px #0000001c;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.segundo{
+    width: 742px;
+    padding: 30px 115px;
+    height: 720px;
+    background-color: white;
+    border-radius: 0px 10px 10px 0px ;
+}
+
+.title{
+    color: #009220;
+    margin-bottom: 25px;
+}
+
+.login{
+    text-align: center;
+}
+
+.login img{
+    margin: 0;
+    width: 60px;
+    height: 50px;
+    margin: 5px 0 5px 5px;
+    cursor: pointer;
+}
+
+.input-group-1{
+    margin-top: 10px;
+    display: flex;
+    gap: 30px;
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+.input-box input{
+    width: 100%;
+    margin: 0.6rem 0;
+    padding: 0.8rem 3.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #00000041;
+    font-size: 0.8rem;
+
+}
